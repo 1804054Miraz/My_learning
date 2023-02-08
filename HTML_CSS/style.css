@@ -1,0 +1,52 @@
+.header{
+   padding: 80px; 
+   text-align: center;
+   background-color:rgb(144, 66, 66);
+   color: rgba(7, 0, 0, 0.692);
+   
+}
+.navbar{
+    overflow: hidden;
+    background-color:rgb(103, 91, 91);
+    color: white;
+    font-size: large;
+}
+.navbar a{
+   
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 20px;
+    text-decoration: none;
+    float: right;
+}
+.navbar a.left{
+    float: left;
+}
+.navbar a:hover{
+    background-color: burlywood;
+    border-radius: 7%;
+}
+.main{
+    background-color: #ebc57354;
+    text-align: center;
+}
+.footer{
+    overflow: hidden;
+    text-align: center;
+    background-color:rgb(103, 91, 91);
+    color: white;
+}
+.footer a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    float: right;
+}
+.footer a:hover{
+    background-color: burlywood;
+    border-radius: 7%;
+}
+    
