@@ -49,5 +49,58 @@
     background-color: burlywood;
     border-radius: 7%;
 }
+.box1{
+    height: 400px;
+    width: 360px;
+    padding: 40px;
+    margin: 30px;
+    border: 15px solid green;
+    background-color: lightgrey;
+    block-size: 150px;
+    text-align: center;
+   
+}
+.box2{
+    padding: 10px;
+    border: 15px solid green;
+    background-color: lightgrey;
+}
 
-    
+.box3{
+    display: inline;
+    padding: 5px;
+    margin: 20px;
+    border: 15px solid green;
+}
+
+.box4{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    margin: 20px;
+    border: 15px solid green;
+}
+.box5{
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  padding: 5px;
+  border: 15px solid green;
+  
+}
+
+.txt-one{
+    font-size: 25px;
+}
+.txt-two{
+    font-size:25%;
+}
+.txt-three{
+    font: size 25em;
+}
+.txt-four{
+    font: size 25rem;
+}
+
