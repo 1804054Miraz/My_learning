@@ -1,0 +1,19 @@
+body{
+    background-color: rgba(76, 175, 80, 0.3) ;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    padding: .5%;
+}
+.navbar{
+    background-color: teal;
+    padding: 1% 7%;
+    text-align: center;
+}
