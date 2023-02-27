@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            problem 1
+        </title>
+    </head>
+    <body>
+        <button onclick="func1()">Name</button>
+        <p id="demo1"></p>
+        <script>
+            function func1()
+            {
+                let name = prompt("Your name is : ");
+                if(name!=null)
+                {
+                    document.getElementById("demo1").innerHTML = "Your name is : "+name;
+                }
+            }
+        </script>
+        <button onclick="func2()">Age</button>
+        <p id = "demo2"></p>
+        <script>
+            function func2()
+            {
+                let age = prompt("Age is : ");
+                if(age!=null)
+                {
+                    document.getElementById("demo2").innerHTML = "Your age is : " + age;
+                }
+            }
+        </script>
+    </body>
+</html>
