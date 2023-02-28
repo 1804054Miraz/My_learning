@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            problem 2 
+        </title>
+    </head>
+    <body>
+         
+       <!-- <p id="demo">For Addtion Enter height and width :</p> -->
+       <button onclick="func1()">Addition</button>
+
+       <!-- <p id="demo">Enter height and width :</p> -->
+       <button onclick="func2()">Subtraction</button>
+       <!-- <p id="demo">Enter height and width :</p> -->
+       <button onclick="func3()">Multiplication</button>
+       <!-- <p id="demo">Enter height and width :</p> -->
+       <button onclick="func4()">Division</button>
+
+        <script>
+            function func1()
+            {
+               
+                var num1 = window.prompt("Num1: ");
+                var num2 = window.prompt("Num2: ");
+
+                num1 = parseFloat(num1);
+                num2 = parseFloat(num2);
+
+                alert("Addition = "+ (num1 + num2));
+
+                
+            }
+            function func2()
+            {
+               
+                var num1 = window.prompt("Num1: ");
+                var num2 = window.prompt("Num2: ");
+
+                num1 = parseFloat(num1);
+                num2 = parseFloat(num2);
+
+                alert("Subtraction = "+ (num1 - num2));
+
+                
+            }
+            function func3()
+            {
+               
+                var num1 = window.prompt("Num1: ");
+                var num2 = window.prompt("Num2: ");
+
+                num1 = parseFloat(num1);
+                num2 = parseFloat(num2);
+
+                alert("Multiplication = "+ num1 * num2);
+
+                
+            }
+            function func4()
+            {
+               
+                var num1 = window.prompt("Num1: ");
+                var num2 = window.prompt("Num2: ");
+
+                num1 = parseFloat(num1);
+                num2 = parseFloat(num2);
+
+                alert("Division = "+ num1/ num2);
+
+                
+            }
+        </script>
+       
+    </body>
+</html>

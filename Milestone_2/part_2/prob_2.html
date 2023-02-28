@@ -2,33 +2,29 @@
 <html>
     <head>
         <title>
-            problem 1
+            problem 2 
         </title>
     </head>
     <body>
-        <button onclick="func1()">Name</button>
-        <p id="demo1"></p>
+         
+       <p id="demo">Enter height and width :</p>
+       <button onclick="func1()">Enter</button>
+
         <script>
             function func1()
             {
-                let name = prompt("Your name is : ");
-                if(name!=null)
-                {
-                    document.getElementById("demo1").innerHTML = "Your name is : "+name;
-                }
+               
+                var num1 = window.prompt("Num1: ");
+                var num2 = window.prompt("Num2: ");
+
+                num1 = parseFloat(num1);
+                num2 = parseFloat(num2);
+
+                alert("Area of the Ractangle is = "+ num1 * num2);
+
+                
             }
         </script>
-        <button onclick="func2()">Age</button>
-        <p id = "demo2"></p>
-        <script>
-            function func2()
-            {
-                let age = prompt("Age is : ");
-                if(age!=null)
-                {
-                    document.getElementById("demo2").innerHTML = "Your age is : " + age;
-                }
-            }
-        </script>
+       
     </body>
 </html>
