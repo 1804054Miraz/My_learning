@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            problem 4 
+        </title>
+    </head>
+    <body>
+         
+       <p id="demo">Take a value : </p>
+       <button onclick="func1()">Value</button>
+
+        <script>
+            function func1()
+            {
+               
+                var a = window.prompt("Num1: ");
+                var b = window.prompt("Num2: ");
+                var c = window.prompt("Num3: ");
+
+                if(a*a == b*b+c*c || b*b==a*a+c*c || c*c==a*a+b*b)
+                {
+                    document.write(" Pythagorean triple")
+                }
+                else
+                {
+                    document.write("Not Pythagorean triple")
+                }
+                
+               
+
+                
+            }
+         
+        </script>
+       
+    </body>
+</html>
