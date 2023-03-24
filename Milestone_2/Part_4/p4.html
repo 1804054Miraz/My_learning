@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            problem 4
+        </title>
+    </head>
+    <body>
+         
+       <!-- <p id="demo">Take a value : </p>
+       <button onclick="func1()">Value</button> -->
+
+        <script>
+            function func1()
+            {
+               let n = 1000;
+               let v = parseInt(prompt());
+               const prime = [];
+               for(let i=2;i<=n;i++)prime[i]=0;
+               prime[1]=1;
+               
+               for(let i = 4;i<=n;i+=2)
+               {
+                prime[i]=1;
+               }
+               for(let i = 3;i*i<=n;i+=2)
+               {
+                for(let j = i*i;j<=n;j+=i)
+                {
+                    prime[j]=1;
+                }
+               }
+            //    for(let i=1;i<=4;i++)
+            //     document.write(ar[i]);
+               if(prime[v]==0)
+               {
+                return "Prime";
+               }
+               else
+                return "Not Prime";
+           
+            }
+         document.write("The value is  = " + func1());
+         //document.getElementById("demo").innerHTML = func1();
+        </script>
+    </body>
+</html>

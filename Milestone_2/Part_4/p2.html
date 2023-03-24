@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            problem 2 
+        </title>
+    </head>
+    <body>
+         
+       <!-- <p id="demo">Take a value : </p>
+       <button onclick="func1()">Value</button> -->
+
+        <script>
+            function func1()
+            {
+               var st = prompt("Take a word: ");
+               var x = st.split("");
+               var y = x.reverse();
+               var z = y.join("");
+               return z;
+            }
+         document.write(func1());
+         //document.getElementById("demo").innerHTML = func1();
+        </script>
+    </body>
+</html>

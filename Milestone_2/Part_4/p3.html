@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            problem 3 
+        </title>
+    </head>
+    <body>
+         
+       <!-- <p id="demo">Take a value : </p>
+       <button onclick="func1()">Value</button> -->
+
+        <script>
+            function func1()
+            {
+               let n = parseInt(prompt());
+               const ar = [];
+               for(let i=0;i<n;i++)
+               {
+                let a = parseInt(prompt());
+                ar[i]=a;
+               }
+               let sum = 0;
+               for(let i=0;i<n;i++)
+               {
+                sum += ar[i];
+               }
+               return sum;
+            }
+         document.write("The sum is = " + func1());
+         //document.getElementById("demo").innerHTML = func1();
+        </script>
+    </body>
+</html>
