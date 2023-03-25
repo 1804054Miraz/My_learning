@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            problem 4
+        </title>
+    </head>
+    <body>
+         
+
+        <script>
+            function func1()
+            {
+               let n = parseInt(prompt("First array size: "));
+               const ar = [], br=[];
+              let m=0;
+               for(let i=0;i<n;i++)
+               {
+                let a = parseInt(prompt("array value : "));
+                if(a%2==0)
+                {
+                    ar[m]=a;m++;
+                }
+                
+               }
+             
+                
+                for(let i=0;i<m;i++)document.write(ar[i]+" ");
+            }
+         func1();
+         //document.getElementById("demo").innerHTML = func1();
+        </script>
+    </body>
+</html>

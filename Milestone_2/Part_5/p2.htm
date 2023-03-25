@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            problem 2
+        </title>
+    </head>
+    <body>
+         
+       <!-- <p id="demo">Take a value : </p>
+       <button onclick="func1()">Value</button> -->
+
+        <script>
+            function func1()
+            {
+               let n = parseInt(prompt());
+               const ar = [];
+               for(let i=0;i<n;i++)
+               {
+                let a = prompt();
+                ar[i]=a;
+               }
+               ar.sort();
+               document.write("The smallest is " + ar[0] + " and The largest is = "+ ar[n-1]);
+            }
+         func1();
+         //document.getElementById("demo").innerHTML = func1();
+        </script>
+    </body>
+</html>

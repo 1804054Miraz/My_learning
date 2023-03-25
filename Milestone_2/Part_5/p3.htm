@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            problem 3
+        </title>
+    </head>
+    <body>
+         
+
+        <script>
+            function func1()
+            {
+               let n = parseInt(prompt());
+               const ar = [];
+               const mp=[];
+               for(let i=0;i<n;i++)
+               {
+                let a = prompt("Name is : ");
+                let age = parseInt(prompt("Age is : "));
+                mp[age]=a;
+                ar[i]=age;
+               }
+              // mp.sort();
+              ar.sort(function(a,b){return a-b});
+                //document.write("The smallest is " + mp[ar[0]] + " and The largest is = "+ mp[ar[n-1]]);
+                document.write("The oldest man : " + mp[ar[n-1]] + " and The old is : "+ ar[n-1]);
+                //for(let i=0;i<n;i++)document.write(ar[i]+" ");
+            }
+         func1();
+         //document.getElementById("demo").innerHTML = func1();
+        </script>
+    </body>
+</html>
