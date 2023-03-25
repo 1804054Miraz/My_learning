@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            problem 6
+        </title>
+    </head>
+    <body>
+         
+       <!-- <p id="demo">Take a value : </p>
+       <button onclick="func1()">Value</button> -->
+
+        <script>
+            function func1()
+            {
+               
+                let a = parseInt(prompt("Num1: "));
+                let b = parseInt(prompt("Num2: "));
+                let sign = prompt("Select operation: ")
+                if(sign=='+')
+                {
+                    return a+b;
+                }
+                else if(sign=='-')
+                {
+                    return a-b;
+                }
+                else if(sign=='/')
+                {
+                    return a/b;
+                }
+                else
+                    return a*b;
+            }
+         document.write("The target operation is = " + func1());
+         //document.getElementById("demo").innerHTML = func1();
+        </script>
+    </body>
+</html>
